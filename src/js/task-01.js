@@ -1,6 +1,3 @@
-// const categories = document.querySelector('#categories').children;
-// console.log(categories);
-
 function catToConsole(categories, i) {
   console.log(
     `'Category: ${categories.item(i).querySelector('h2').textContent}`
