@@ -1,0 +1,2 @@
+const e=["Potatoes","Mushrooms","Garlic","Tomatos","Herbs","Condiments"];function t(e){const t=document.createElement("li");return t.className="item",t.appendChild(function(e="Potatoes"){const t=document.createElement("p");return t.textContent=e,t}(e)),t}!function(n=document.querySelector("#ingredients")){n.append(...e.map((e=>t(e))))}(document.querySelector("#ingredients"));
+//# sourceMappingURL=task-02.be254620.js.map
