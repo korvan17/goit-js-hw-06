@@ -11,7 +11,6 @@ buttonCreate.addEventListener('click', createBoxes);
 buttonDestroy.addEventListener('click', destroyBoxes);
 
 function createBoxes() {
-  console.log(getData.value);
   addBox(getData.value);
 }
 

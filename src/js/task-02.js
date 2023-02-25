@@ -21,7 +21,6 @@ function createLi(el) {
 }
 
 function addLi(list = document.querySelector('#ingredients')) {
-  // ingredients.forEach(el => list.appendChild(createLi(el)));
   list.append(...ingredients.map(el => createLi(el)));
 }
 

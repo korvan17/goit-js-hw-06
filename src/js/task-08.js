@@ -9,9 +9,11 @@ function onFormSubmit(event) {
   formData.forEach((val, name) => {
     data[name] = val;
     if (val === '') {
-      window.alert('всі поля повинні бути заповнені');
+      return window.alert('всі поля повинні бути заповнені');
     }
   });
-  form.reset();
-  console.log(data);
+  if (data.email !== '' && data.password !== '') {
+    console.log(data);
+    form.reset();
+  }
 }
